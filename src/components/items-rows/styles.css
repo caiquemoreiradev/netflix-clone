@@ -1,0 +1,64 @@
+.categories {
+    margin-bottom: 30px;
+}
+
+.categories h2 {
+    margin: 0 0 0 30px;
+    padding-left: 20px;
+}
+
+.categories--listarea {
+    overflow-x: hidden;
+    padding-left: 50px;
+}
+
+.categories--list {
+    transition: all ease 0.3s;
+}
+
+.categories--item {
+    display: inline-block;
+    width: 150px;
+}
+
+.categories--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.categories--item img:hover {
+    transform: scale(1);
+}
+
+.categories--left,
+.categories--right {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.2s;
+}
+
+.categories--left {
+    left: 0;
+}
+
+.no-arrow-left {
+   display: none;
+}
+
+.categories--right {
+    right: 0;
+}
+
+.categories:hover .categories--right,
+.categories:hover .categories--left {
+    opacity: 1;
+}

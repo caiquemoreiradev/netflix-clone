@@ -1,0 +1,64 @@
+.originals {
+    margin-bottom: 60px;
+}
+
+.originals h2 {
+    margin: 0 0 0 30px;
+    padding-left: 20px;
+}
+
+.originals--listarea {
+    overflow-x: hidden;
+    padding-left: 50px;
+}
+
+.originals--list {
+    transition: all ease 0.3s;
+}
+
+.originals--item {
+    display: inline-block;
+    width: 400px;
+}
+
+.originals--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.originals--item img:hover {
+    transform: scale(1);
+}
+
+.originals--left,
+.originals--right {
+    position: absolute;
+    width: 40px;
+    height: 500px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.2s;
+}
+
+.originals--left {
+    left: 0;
+}
+
+.no-arrow-left {
+   display: none;
+}
+
+.originals--right {
+    right: 0;
+}
+
+.originals:hover .originals--right,
+.originals:hover .originals--left {
+    opacity: 1;
+}

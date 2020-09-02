@@ -1,0 +1,64 @@
+.my-list {
+    margin-bottom: 30px;
+}
+
+.my-list h2 {
+    margin: 0 0 0 30px;
+    padding-left: 20px;
+}
+
+.my-list--listarea {
+    overflow-x: hidden;
+    padding-left: 50px;
+}
+
+.my-list--list {
+    transition: all ease 0.3s;
+}
+
+.my-list--item {
+    display: inline-block;
+    width: 300px;
+}
+
+.my-list--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.my-list--item img:hover {
+    transform: scale(1);
+}
+
+.my-list--left,
+.my-list--right {
+    position: absolute;
+    width: 40px;
+    height: 200px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.2s;
+}
+
+.my-list--left {
+    left: 0;
+}
+
+.no-arrow-left {
+   display: none;
+}
+
+.my-list--right {
+    right: 0;
+}
+
+.my-list:hover .my-list--right,
+.my-list:hover .my-list--left {
+    opacity: 1;
+}
