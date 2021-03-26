@@ -11,13 +11,13 @@ O projeto foi desenvolvido seguindo a aula do **Bonienky Lacerda**, a proposta s
 </br>
 
 - ReactJs para facilitar a criação da interface através de componentes customizáveis;
-</br>
+
  > O que consiste em Html, CSS e Javascript, o React só traz essa facilidade de reutilizar um componente em várias partes da aplicação.
  > O que facilitou a criação das listas de filmes por exemplo já que todas seguem o mesmo design apenas as informações são alteradas.
 </br>
 
 - Api do TMDB
-</br>
+
 	> O TMDB é uma base de dados com muitos filmes e séries e utilizamos para preencher as informações como imagens e categorias.
 	> Uma Api serve para que possamos interagir com a nossa aplicação para tarefas como criar (Create) registros, ler/obter (Read) registros, atualizar (Update) registros, deletar (Delete) registros, o famoso CRUD que tanto ouvimos falar ao lidar com bancos de dados ou as próprias apis.
 	
