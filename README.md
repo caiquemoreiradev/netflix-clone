@@ -28,4 +28,4 @@ O projeto foi desenvolvido seguindo a aula do **Bonienky Lacerda**, a proposta s
 
 # Demonstração da aplicação com postagem no LinkedIn
 
-[![Video Demonstration](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6706987924308684800?compact=1)]
+[![Video Demonstration](https://i.imgur.com/vKb2F1B.png)(https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6706987924308684800?compact=1)]
