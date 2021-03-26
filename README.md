@@ -12,8 +12,8 @@ O projeto foi desenvolvido seguindo a aula do **Bonienky Lacerda**, a proposta s
 
 - ReactJs para facilitar a criação da interface através de componentes customizáveis;
 
- > O que consiste em Html, CSS e Javascript, o React só traz essa facilidade de reutilizar um componente em várias partes da aplicação.
- > O que facilitou a criação das listas de filmes por exemplo já que todas seguem o mesmo design apenas as informações são alteradas.
+ 	> O que consiste em Html, CSS e Javascript, o React só traz essa facilidade de reutilizar um componente em várias partes da aplicação.
+ 	> O que facilitou a criação das listas de filmes por exemplo já que todas seguem o mesmo design apenas as informações são alteradas.
 </br>
 
 - Api do TMDB
